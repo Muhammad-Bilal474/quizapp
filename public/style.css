@@ -1,0 +1,195 @@
+body{
+    margin: 0rem;
+    padding: 0rem;
+    background-color: rgb(9, 108, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.AllMain{
+    margin: auto;
+    width: 28rem;
+    height: auto;
+    margin-top: 7rem;
+}
+
+
+
+.main{
+    margin: auto;
+    width: 28rem;
+    height: 27rem;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px 0px 5px 5px;
+}
+
+.margin{
+    margin: auto;
+    margin-top: 9rem;
+    width: 28rem;
+    height: 27rem;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+
+.timer{
+    margin: auto;
+    width: 5.5rem;
+    height: auto; 
+    background-color: rgb(255, 175, 251);
+    border-radius: 4px 4px 0px 4px;
+    margin-left: 22.5rem;
+    padding: -1px;
+    
+    
+    
+    
+}
+
+.timerWriting{
+    margin-left: 1.3rem;
+}
+
+.timer p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+
+    
+}
+
+
+
+.quiz-name{
+    padding-top: 0.5px;
+    padding-left: 5rem;
+    width: 25rem;
+
+  
+   
+
+}
+
+.heading{
+    color:  rgb(0, 90, 224);
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: fantasy;
+
+}
+
+.question{
+    color:rgb(59, 59, 59);
+    margin: -0.5rem .5px 0px 1rem;
+    font-weight: 100;
+    word-spacing: -2px;
+    font-family:   'Times New Roman', Times, serif;
+}
+
+.options{
+    background-color: rgb(179, 179, 179);
+    width: 92%;
+    margin: 1rem 0px 0px 1rem;
+    padding: 0.5rem 0px 0.5rem 0px;
+    border-radius: 5px;
+   
+}
+
+.options:hover{
+    background-color: rgb(124, 124, 124);
+}
+
+.buttn {
+   background-color:  rgb(0, 72, 180);
+   border: none;
+   border-radius: 3px;
+   outline: none;
+   padding: 0.5rem;
+   color: rgb(223, 223, 223);
+   font-weight: 100;
+   font-size: 17px;
+   margin: 1.5rem 0px 0px 19rem;
+}
+
+.result-btn{
+    padding: .5rem .8rem .5rem .8rem;
+    font-size:21px ;
+    margin-left: 21rem;
+    color: rgb(223, 223, 223);
+}
+
+
+.buttn:hover{
+    background-color:   rgb(0, 62, 155);
+}
+
+.result-head{
+    width: 18rem;
+    margin: auto;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.index-head{
+    padding: 1rem 0rem 0rem 8rem;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.index-dis{
+    padding-left: 2rem;
+    font-size: 18px;
+}
+
+.ins{
+    color: rgb(0, 90, 224);
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 1.5rem;    
+}
+
+.ins-des{
+    font-size: 15px;
+    padding-left: 1rem; 
+}
+
+.start-btn{
+    margin-top: 0rem;
+    margin-left: 21rem;
+}
+
+table{
+    width: 85%;
+    background-color:  rgb(233, 233, 233);
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 1rem;
+
+}
+table tr td{
+    padding: .6rem;
+    border: 2px solid rgb(36, 36, 36);
+    
+}
+
+.res-btn{
+    font-size: 18px;
+    padding: 6px;
+    margin-left: 2rem;
+}
+
+.btn-div{
+    margin-left: 5.5rem;
+}
+
+.hide{
+    display: none;
+}

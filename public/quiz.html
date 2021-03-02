@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="AllMain" id="AllMain">
+        <div id="timer" class="timer">
+            <div class="timerWriting">
+
+                <p class="time" id="minutes">05</p>
+                <p class="time">:</p>
+                <p class="time" id="sec">00</p>
+            </div>
+        </div>
+
+        <div class="main" id="main">
+            <div class="quiz-name">
+                <h2 id="qnum" class="heading"></h2>
+            </div>
+
+            <div>
+                <h2 id="question" class="question"></h2>
+            </div>
+            <label>
+                <div class="options" id='inp-dis'>
+                    <input onblur="blur()" onclick="enabl()" type="radio" name="option" value="1">
+                    <span id="opt1"></span>
+                </div>
+            </label>
+            <label>
+                <div class="options">
+                    <input onblur="blur()" onclick="enabl()" type="radio" name="option" value="2">
+                    <span id="opt2"></span>
+                </div>
+            </label>
+            <label>
+                <div class="options" id='inp-dis'>
+                    <input onblur="blur()" onclick="enabl()" type="radio" name="option" value="3">
+                    <span id="opt3"></span>
+                </div>
+            </label>
+            <label>
+                <div class="options" id='inp-dis'>
+                    <input onblur="blur()" onclick="enabl()" type="radio" name="option" value="4">
+                    <span id="opt4"></span>
+                </div>
+            </label>
+            <div>
+                <button disabled class="buttn" onclick="next()" id="btn">Next Question</button>
+                <button onclick="showResult()" class="hide" id="result-btn">Result</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="hide" id="resut">
+        <h1 class="heading result-head">QUIZ RESULT</h1>
+        <table>
+            <tr>
+                <td>Total Question</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td>5Mins</td>
+            </tr>
+            <tr>
+                <td>Correct Answer</td>
+                <td id="correct"></td>
+            </tr>
+            <tr>
+                <td>Wrong Answer</td>
+                <td id="wrong"></td>
+            </tr>
+            <tr>
+                <td>Score</td>
+                <td id="marks"></td>
+            </tr>
+            <tr>
+                <td>Percentage</td>
+                <td id="per"></td>
+            </tr>
+            <tr>
+                <td>Result</td>
+                <td id="pass"></td>
+            </tr>
+        </table>
+        <div class="btn-div">
+          <a href="quiz.html"><button class="buttn res-btn">Try Again</button></a>
+            <a href="index.html"><button class="buttn res-btn">Go To Home</button></a>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
